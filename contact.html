@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300
+    ;400;600;700&display=swap"rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="logo.png" alt="#"></a>
+             <div class="nav-links" id="navlinks">
+                
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+         </nav>
+         <h1>Contact Us</h1>
+
+    </section>
+    <!----------contact us---------->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253176.3666171505!2d4.542391000000012!3d7.47842095000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103837643f7c9463%3A0xdf9c1547fe8ff6d8!2sIfe%2C%20Osun!5e0!3m2!1sen!2sng!4v1726137692067!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us"></section>
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house-user"></i>
+               <span>
+                <h5>Afeki,Opa Store B/Stop,<br>Off Ilesha Road,<br>Ile-Ife,</h5>
+                <p>ZIP:220112<br>Osun State, Nigeria.<br>Visiting Adesoji Willams  Ile-Ife check your GoogleMaps</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+               <span>
+                <h5>+2347067040243</h5>
+                <p>Monday to Saturday, 10Am to 6PM</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope-open"></i>
+               <span>
+                <h5>olamidewilliams2001@gmail.com</h5>
+                <p>Email me via the space below</p>
+            </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdknveda" method="POST">
+                <div class="names">
+                    <input type="text" placeholder="First Name" name="First name" required>
+                    <input type="text" placeholder="Last  Name" name="Last name" required>
+                    <input type="text" placeholder="Organization name" name="Organisation name ?" required>
+                    <input type="text" placeholder="phone number" name="what is ur phone number ?" required>
+        
+                </div>
+                <input type="email" placeholder="Your Email Address" name="Email Address" required>
+                <textarea name="Message" id="" cols="#" rows="7" placeholder="Write Your Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            </div>  
+    </div>
+
+
+
+
+
+
+    <!------Footer------->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>
+        To reach and create an appointment or hire me.<br> And you can follow Me
+        all my social media platform by clicking on the icons below Thank you.
+    </p>
+    <div class="icons">
+        <a href="https://web.facebook.com/willywest44"><i class="fa-brands fa-facebook" style="color: rgb(25, 92, 158)"></i></a>
+        <a href="https://X.com/willywest44"  ><i class="fa-brands fa-twitter"style="color: rgb(52, 152, 219);" target="_blank" role="button"></i></a>
+        <a href="https://instagram.com/the_defender01"  ><i class="fa-brands fa-instagram"style="color: rgb(128, 31, 57);" target="_blank" role="button"></i></a>
+        <a href="https://wa.me/+2347067040243" ><i class="fa-brands fa-whatsapp" style="color: rgb(26, 213, 57);"target="_blank" role="button"></i></a>
+        <a href="https://youtube.com/@orireprayermountain7921"><i class="fa-brands fa-youtube"  style="color: rgb(199, 42, 11);" target="_blank" role="button"></i></a>
+        <a href="mailto:olamidewilliams2001@gmail.com" style="color: hsl(22, 47%, 52%);" target="_blank" role="button"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://www.stationhead.com/willywest44" style="color:rgb(42, 13, 13);"><i class="fa-solid fa-microphone-lines"></i></a>
+        <a href="https://www.linkdeln.com/olamidewilliams" style="color:rgb(26, 46, 195);"><i class="fa-solid fa-i-lines"></i></a>
+        
+    </div>
+   <p>Made with <i class="fa-regular fa-heart"></i> by Wills </p>
+</section>
+
+
+
+
+
+
+
+   <!---------Javascript for Toggle Menu ------------>
+   <script>
+    var navLinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+     function hideMenu(){
+        navLinks.style.right = "-270px";
+    }
+</script>
+</body>
+</html>
